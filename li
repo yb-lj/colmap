@@ -1,0 +1,4 @@
+cd ./colmap-3.5              # 进入colmap目录
+mkdir build && cd ./build    # 创建build文件夹，并进入
+cmake ..                     # cmake
+make -j8                     # make多线程编译
